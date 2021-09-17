@@ -1,0 +1,56 @@
+:root{
+  --colour--teal: #008080;
+  --colour--crimson:crimson;
+  --colour-white:#ffff;
+  --colour-black:#0000;
+}
+body{
+  background-image:url(/image.jpg);
+  text-align: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top: 9rem;
+  color: #008000;
+  font-size: 20px;
+  display: flex;
+  font-weight: 500 ;
+}
+h1{
+  font-weight: 700;
+  color:var(--colour--teal);
+  font-size: 3rem;
+}
+.weapons{
+ display: flex;
+ flex-direction: row;
+}
+.weapons button{
+  border-radius: 2rem;
+  border-style: none;
+  font-size: 3.5rem;
+  justify-content: space-evenly;
+  margin: auto 1rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+.scores{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  margin-left: 20rem;
+  color: red;
+}
+.results{
+  margin-top: 5rem;
+  color: var(--colour--crimson);
+}
+.clear button{
+  border: none;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  background-color: var(--colour--crimson);
+  cursor: pointer;
+}
+.clear button:hover{
+  background-color: transparent;
+}
